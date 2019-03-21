@@ -8,11 +8,12 @@ This is the library to control a IQ Motion Control Module with Matlab
 
 Include this library in your Matlab folder path to use it.  
 Read the programming [documentation](http://www.iq-control.com/documentation) on our website to learn how to use this library.  
-A .zip of the library can also be found on our [release page](). Use the tags to make sure you are using the latest stable release version.
+A .zip of the library can also be found on our [release page](https://github.com/iq-motion-control/iq-module-communication-matlab/releases). Use the tags to make sure you are using the latest stable release version.
 
 ### Prerequisites
 
-You will need the latest version of [Matlab](https://www.mathworks.com/downloads/) to use this library
+You will need at least Matlab 2018a to use this library.  
+You can get the latest version of Matlab here [Matlab](https://www.mathworks.com/downloads/) to use this library
 
 ## Contributing
 
@@ -20,8 +21,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository]().
-For the releases available, see the [releases on this repository](). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/iq-motion-control/iq-module-communication-matlab/tags).
+For the releases available, see the [releases on this repository](https://github.com/iq-motion-control/iq-module-communication-matlab/releases). 
 
 ## Authors
 

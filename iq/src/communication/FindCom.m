@@ -35,6 +35,8 @@ function [com] = FindCom(varargin)
 
     % Sets up a com
     id = p.Results.id;
+    
+    com = [];
 
     %% Find/make com
     coms = seriallist;
@@ -48,14 +50,20 @@ function [com] = FindCom(varargin)
                 if(id == id_in)
                     disp(['Using MessageInterface on ', coms{i}]);
                     break;
+                else
+                    disp(['No response on ' coms{i}]);
                 end
             elseif(~isempty(id_in))
                 disp(['Using MessageInterface on ', coms{i}]);
                 break;
+            else
+                disp(['No response on ' coms{i}]);
             end
         catch ME
             if (~strcmp(ME.identifier, 'MATLAB:serial:fopen:opfailed'))
                 rethrow(ME);
+            else
+                disp(['Could not open ' coms{i}]);
             end
         end
     end

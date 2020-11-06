@@ -1,4 +1,5 @@
-![Release Version](release_badge.svg)
+![tag](https://img.shields.io/github/v/tag/iq-motion-control/iq-module-communication-matlab)
+![release](https://img.shields.io/github/release/iq-motion-control/iq-module-communication-matlab/all.svg)
 
 # Matlab API
 
@@ -7,7 +8,7 @@ This is the library to control a IQ Motion Control Module with Matlab
 ## Getting Started
 
 Include this library in your Matlab folder path to use it.  
-Read the programming [documentation](http://www.iq-control.com/documentation) on our website to learn how to use this library.  
+Read the programming [documentation](http://www.iq-control.com/support) on our website to learn how to use this library.  
 A .zip of the library can also be found on our [release page](https://github.com/iq-motion-control/iq-module-communication-matlab/releases). Use the tags to make sure you are using the latest stable release version.
 
 ### Prerequisites

@@ -8,7 +8,7 @@
 %   % Coil Temperature Estimator objects are always obj_id 0
 %   coilTemperatureEstimator = CoilTemperatureEstimatorClient('com', com);
 %   % Use the Coil Temperature Estimator object
-%   alwaysArmed = coilTemperatureEstimator.get('always_armed');
+%   tCoil = coilTemperatureEstimator.get('t_coil');
 %
 % Copyright 2023 Vertiq support@vertiq.com
 %
@@ -17,7 +17,7 @@
 % This code is licensed under the MIT license (see LICENSE or https://opensource.org/licenses/MIT for details)
 %
 % Name: CoilTemperatureEstimatorClient.m
-% Last update: 2023/05/08 by Ben Quan
+% Last update: 2023/05/11 by Ben Quan
 % Author: Ben Quan
 % Contributors:
 

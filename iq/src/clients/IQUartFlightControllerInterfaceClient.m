@@ -8,7 +8,7 @@
 %   % IQUART Flight Controller Interface objects are always obj_id 0
 %   iquartFlightControllerInterface = IQUartFlightControllerInterfaceClient('com', com);
 %   % Use the IQUART Flight Controller Interface object
-%   telemetry = iquartFlightControllerInterface.get('telemetry');
+%   throttleCvi = iquartFlightControllerInterface.get('throttle_cvi');
 %
 % Copyright 2023 Vertiq support@vertiq.com
 %

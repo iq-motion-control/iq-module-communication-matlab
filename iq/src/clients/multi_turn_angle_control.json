@@ -28,6 +28,6 @@
 {"type_idn":59, "param":"trajectory_average_speed",         "param_idn":  26,"format":"f", "unit": "rad/s"      },
 {"type_idn":59, "param":"trajectory_queue_mode",            "param_idn":  27,"format":"b", "unit": ""           },
 {"type_idn":59, "param":"ff",                               "param_idn":  29,"format":"I", "unit": ""           },
-{"type_idn":59, "param":"sample_zero_angle",                "param_idn":  30,"format":"",  "unit": ""           },
+{"type_idn":59, "param":"sample_zero_angle",                "param_idn":  30,"format":"",  "unit": "rad"        },
 {"type_idn":59, "param":"zero_angle",                       "param_idn":  31,"format":"f", "unit": "rad"        }
 ]

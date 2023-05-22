@@ -1,5 +1,5 @@
 [
-{"type_idn":80, "param":"uavcan_node_id",         "param_idn":  0,  "format":"I",  "unit": "id [1, 127]"        },
+{"type_idn":80, "param":"uavcan_node_id",         "param_idn":  0,  "format":"I",  "unit": "ID [1, 127]"        },
 {"type_idn":80, "param":"uavcan_esc_index",       "param_idn":  1,  "format":"I",  "unit": "index [0, 19]"      },
 {"type_idn":80, "param":"zero_behavior",          "param_idn":  2,  "format":"I",  "unit": "enum"               },
 {"type_idn":80, "param":"last_error_code",        "param_idn":  3,  "format":"B",  "unit": "Error Code"         },

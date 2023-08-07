@@ -1,0 +1,3 @@
+[submodule "iq/src/clients/client_files"]
+	path = iq/src/clients/client_files
+	url = ../client_files.git

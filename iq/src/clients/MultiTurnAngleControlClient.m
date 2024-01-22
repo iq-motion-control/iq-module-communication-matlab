@@ -59,5 +59,16 @@ classdef MultiTurnAngleControlClient < Client
             end
             obj.set('trajectory_duration',tf);
         end
+
+        function SendLinearTrajectory(obj,tf,xf,xdf,xddf)
+            obj.set('trajectory_linear_displacement',xf);
+            if(nargin > 3)
+                obj.set('trajectory_linear_velocity',xdf);
+                if(nargin > 4)
+                    obj.set('trajectory_linear_acceleration',xddf);
+                end
+            end
+            obj.set('trajectory_duration',tf);
+        end
     end
 end

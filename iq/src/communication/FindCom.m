@@ -31,6 +31,7 @@ function [com] = FindCom(varargin)
     p = inputParser;
     addOptional(p,'id',[]);
     addOptional(p,'timeout',.2);
+    addOptional(p,'baud',115200);
     parse(p,varargin{:});
 
     % Sets up a com
@@ -39,10 +40,10 @@ function [com] = FindCom(varargin)
     com = [];
 
     %% Find/make com
-    coms = seriallist;
+    coms = serialportlist;
     for i = 1:length(coms)
         try
-            com = MessageInterface(coms{i}, 115200);
+            com = MessageInterface(coms{i}, p.Results.baud);
             sys = SystemControlClient('com',com,'timeout',p.Results.timeout);
             id_in = sys.get('module_id');
             clear sys
